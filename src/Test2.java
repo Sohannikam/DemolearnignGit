@@ -4,7 +4,7 @@ public class Test2 {
 	public static void main(String[] args) {
 		String hubgry ="yes";
 		
-		if(hubgry=="No")
+		if(hubgry=="No" || hubgry=="Y"||hubgry=="y")
 		{
 			System.out.println("set something");
 		}
